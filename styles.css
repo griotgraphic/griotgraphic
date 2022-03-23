@@ -259,7 +259,7 @@ header{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
-    height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
 }
 
 
