@@ -8,7 +8,7 @@
 }
 
 html, body{
-
+    cursor: url(./assets/svg/cursor.svg), auto;
     margin: 0;
     font-size: 20px;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -40,6 +40,7 @@ a{
 }
 
 .button{
+    font-size: 16px;
     color: #1E1E1E;
     background-color: #C0C1B7;
     padding: 8px 15px;
@@ -396,6 +397,9 @@ section{
     /*GENERALES*/
 
 
+    .button{
+        font-size: 19px;
+    }
 
 
     /*ESTILOS DE TIPOGRAFIA*/
@@ -518,12 +522,12 @@ section{
 
     .wrapper_about{
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 900px;
         padding: 120px 25px 0px 25px;
     }
     
     .oculto{
-        display: initial; 
+        display: block; 
     }
 
     .button:hover{
