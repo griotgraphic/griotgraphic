@@ -297,6 +297,7 @@ section{
 }
 
 .project_content{
+    padding-bottom: 50px;
     text-align: center;
     justify-content: space-between;
     align-items: center;
@@ -516,6 +517,14 @@ section{
         display: initial;
         visibility: hidden;
     }
+
+
+    /*PROYECTO*/
+
+    .project_content{
+        padding-bottom: 10px;
+    }
+
     
 
     /*ABOUT*/
