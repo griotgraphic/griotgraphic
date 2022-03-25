@@ -532,7 +532,7 @@ section{
     .wrapper_about{
         margin: 0 auto;
         max-width: 900px;
-        padding: 120px 25px 0px 25px;
+        padding: 25px 25px 0px 25px;
     }
     
     .oculto{
