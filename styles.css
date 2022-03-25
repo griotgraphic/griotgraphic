@@ -40,7 +40,7 @@ a{
 }
 
 .button{
-    font-size: 16px;
+    font-size: 19px;
     color: #1E1E1E;
     background-color: #C0C1B7;
     padding: 8px 15px;
@@ -51,10 +51,22 @@ a{
 
 .link{
     color: #E96059;
+    display: inline-block;
+    text-decoration: none;
 }
 
-.link:hover{
-    border-bottom: 1.2px solid #E96059;
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #E96059;
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 
@@ -275,9 +287,9 @@ section{
 }
 
 .gradient{
-    background: linear-gradient(-45deg, #E96059,#1E1E1E, #564F99, #1CB3A2);
+    background: linear-gradient(-45deg, #E96059,#243777, #564F99, #1CB3A2);
 	background-size: 400% 400%;
-	animation: gradient 25s ease infinite;
+	animation: gradient 19s ease infinite;
 	height: 100vh;
 }
 
@@ -411,7 +423,7 @@ section{
 
 
     .button{
-        font-size: 19px;
+        font-size: 25px;
     }
 
 
